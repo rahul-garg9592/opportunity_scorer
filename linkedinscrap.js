@@ -1,12 +1,11 @@
-// linkedinScraper.js
 const puppeteer = require("puppeteer");
 
 async function scrapeJob(url) {
   const browser = await puppeteer.launch({
-  executablePath: "/usr/bin/google-chrome",
-  headless: true,
-  args: ["--no-sandbox", "--disable-setuid-sandbox"]
-});
+    headless: "new",
+    args: ["--no-sandbox", "--disable-setuid-sandbox"]
+  });
+
   const page = await browser.newPage();
   await page.goto(url, { waitUntil: "networkidle0" });
 
@@ -17,7 +16,9 @@ async function scrapeJob(url) {
       job_title: getText("h1"),
       company_name: getText(".topcard__org-name-link") || getText(".topcard__flavor"),
       location: getText(".topcard__flavor--bullet"),
-      job_description: document.querySelector('.show-more-less-html__markup')?.innerText || getText('.description__text'),
+      job_description:
+        document.querySelector(".show-more-less-html__markup")?.innerText ||
+        getText(".description__text"),
       experience_required: "",
       tech_stack: [],
       contact_info: []
@@ -25,10 +26,10 @@ async function scrapeJob(url) {
   });
 
   await browser.close();
-  console.log(JSON.stringify(job)); // Only JSON output
+  console.log(JSON.stringify(job));
 }
 
-// If run directly
+// Run if executed directly
 if (require.main === module) {
   const url = process.argv[2];
   if (!url) {
