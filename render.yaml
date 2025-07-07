@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: job-parser-api
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node main_js.js
+    envVars:
+      - key: GOOGLE_API_KEY
+        value: your-api-key-here
+    autoDeploy: true
