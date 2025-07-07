@@ -1,0 +1,38 @@
+{
+  "job_title": "Edge AI Intern",
+  "job_description": "🚀 Edge AI Intern – Intelligence at the Edge | QpiAI\n\nThe Artificial Intelligence team at QpiAI is building the next frontier of AI-driven edge intelligence—powering smart devices, real-time perception systems, and decentralized learning pipelines for industry-grade applications.\n\nFrom Agentic AI to Computer Vision and model optimization for edge hardware, we are designing cutting-edge solutions to push AI inference beyond the cloud. If you’re excited by the idea of bringing Large Models to Tiny Devices, we want to hear from you.\n\n\n🔍 Who We’re Looking For\n\nWe’re hiring Edge AI Interns to work alongside our product and engineering teams. You will be contributing to:\n\nEdge AI model optimization, quantization, and ONNX conversion\nEdge deployment workflows (e.g., Android/Linux) using Docker and Kubernetes\nReal-time inference for CV and NLP applications on resource-constrained devices\nPrototyping and testing model performance across ARM/NPU/EdgeTPU platforms\nIntegrating with QpiAI Pro and Agent Hive pipelines for edge-to-cloud AI orchestration\n\n\n💡 Ideal Candidate Traits\n\nFirst principles thinker with a passion for AI at the edge\nStrong problem-solving skills and curiosity for optimization trade-offs\nHands-on, self-motivated, and eager to experiment and iterate\n\n\n✅ Key Requirements\n\nSolid Python skills with deep learning libraries (PyTorch, TensorFlow, ONNX, TorchVision, OpenCV)\nFamiliarity with model quantization, pruning, and export formats (TorchScript, ONNX)\nDeep understanding of edge computing environments (e.g.,Jetson, ARM, Raspberry Pi)\nExperience with Docker, Kubernetes, Linux terminal\nExposure to MLOps tools and model orchestration frameworks\nStrong fundamentals in ML, DL, CNNs, and Transformer architectures\nUnderstanding of Version Control Systems, Workflow Orchestration, CI/CD pipeline\nRecent graduate or student in Computer Science, ECE, or AI-focused programs (IITs/NITs preferred)\n\n\n🌟 Bonus Skills (Good to Have)\n\nKnowledge of low-level optimizations (TVM, TensorRT, TFLite, OpenVINO)\nFamiliarity with MQTT, MinIO, or similar edge communication protocols\nExperience with edge inference on audio, video, or multi-modal datasets\nExposure to LangGraph, LangFlow, or multi-agent frameworks",
+  "company_name": "QpiAI",
+  "location": "Bengaluru, Karnataka, India",
+  "experience_required": "Recent graduate or student",
+  "tech_stack": [
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "ONNX",
+    "TorchVision",
+    "OpenCV",
+    "Docker",
+    "Kubernetes",
+    "Linux",
+    "ARM",
+    "MLOps",
+    "CI/CD",
+    "Jetson",
+    "Raspberry Pi",
+    "TVM",
+    "TensorRT",
+    "TFLite",
+    "OpenVINO",
+    "MQTT",
+    "MinIO"
+  ],
+  "contact_info": [],
+  "score": 7,
+  "tier": "medium",
+  "tags": [
+    "unpaid",
+    "high_learning",
+    "student_friendly",
+    "clear_info"
+  ]
+},
