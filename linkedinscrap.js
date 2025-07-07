@@ -3,7 +3,6 @@ const puppeteer = require("puppeteer");
 async function scrapeJob(url) {
   const browser = await puppeteer.launch({
     headless: "new",
-    executablePath: "/usr/bin/chromium", // <-- THIS IS IMPORTANT
     args: ["--no-sandbox", "--disable-setuid-sandbox"]
   });
 
