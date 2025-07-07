@@ -37,3 +37,4 @@ if (require.main === module) {
     process.exit(1);
   }
   scrapeJob(url);
+}
