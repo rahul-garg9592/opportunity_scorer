@@ -1,8 +1,9 @@
-const puppeteer = require("puppeteer"); // ✅ NOT puppeteer-core
+const puppeteer = require("puppeteer");
 
 async function scrapeJob(url) {
   const browser = await puppeteer.launch({
     headless: "new",
+    executablePath: "/usr/bin/chromium", // <-- THIS IS IMPORTANT
     args: ["--no-sandbox", "--disable-setuid-sandbox"]
   });
 
@@ -29,7 +30,6 @@ async function scrapeJob(url) {
   console.log(JSON.stringify(job));
 }
 
-// Run if executed directly
 if (require.main === module) {
   const url = process.argv[2];
   if (!url) {
@@ -37,4 +37,3 @@ if (require.main === module) {
     process.exit(1);
   }
   scrapeJob(url);
-}
