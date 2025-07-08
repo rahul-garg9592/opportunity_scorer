@@ -5,6 +5,8 @@ WORKDIR /app
 
 # Copy files as root and install dependencies
 COPY package*.json ./
+RUN chmod -R 755 .
+RUN chmod 644 package-lock.json
 RUN npm install
 
 # Copy all other project files
