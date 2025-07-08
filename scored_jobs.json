@@ -74,3 +74,115 @@
     "clear_info"
   ]
 },
+{
+  "job_title": "APP DEVELOPERS",
+  "job_description": "Build MVP from scratch in 2 months. Work on real product launch. Final-year students or recent grads preferred.",
+  "company_name": "ALECTO",
+  "location": "Remote",
+  "experience_required": "Final-year students or recent grads",
+  "tech_stack": [
+    "Flutter",
+    "React Native",
+    "Firebase",
+    "Node.js"
+  ],
+  "contact_info": [
+    "singla.manan117@gmail.com",
+    "+919350030763"
+  ],
+  "score": 8,
+  "tier": "medium",
+  "tags": [
+    "paid_internship",
+    "high_learning",
+    "remote",
+    "student_friendly",
+    "clear_info"
+  ]
+},
+{
+  "job_title": "APP DEVELOPERS",
+  "job_description": "Build MVP from scratch in 2 months. Work on real product launch.  India's Auto-Rickshaw | Ride-Hailing App for Tier 2 & Tier 3 Cities",
+  "company_name": "ALECTO",
+  "location": "Remote",
+  "experience_required": "Final-year students or recent grads preferred",
+  "tech_stack": [
+    "Flutter",
+    "React Native",
+    "Firebase",
+    "Node.js"
+  ],
+  "contact_info": [
+    "singla.manan117@gmail.com",
+    "+919350030763"
+  ],
+  "score": 8,
+  "tier": "medium",
+  "tags": [
+    "paid",
+    "student_friendly",
+    "high_learning",
+    "remote",
+    "clear_info"
+  ]
+},
+{
+  "job_title": null,
+  "job_description": null,
+  "company_name": null,
+  "location": null,
+  "experience_required": null,
+  "tech_stack": [],
+  "contact_info": [],
+  "score": 0,
+  "tier": "low",
+  "tags": []
+},
+{
+  "job_title": null,
+  "job_description": null,
+  "company_name": null,
+  "location": null,
+  "experience_required": null,
+  "tech_stack": [],
+  "contact_info": [],
+  "score": 0,
+  "tier": "low",
+  "tags": []
+},
+{
+  "job_title": "Data Scientist Intern",
+  "job_description": "This would be a Full stack Data Scientist role. Very unique opportunity to contribute in core models and not just experimental models. This gives a chance to work directly with Founders having core experience in Data. Expectation from the person is that they will define the problem statement, fetch data, identify right models, build and deploy in production. Responsibilities: Analyze raw data: assessing quality, cleansing, structuring for downstream processing; Design accurate and scalable prediction algorithms; Collaborate with engineering team to bring analytical prototypes to production; Generate actionable insights for business improvements. Qualifications: Bachelor's degree or equivalent experience in a quantitative field (Statistics, Mathematics, Computer Science, Engineering, etc.); Deep understanding of basic statistics (central tendency, distributions etc.); Deep understanding of predictive modeling, machine-learning, clustering and classification techniques, and algorithms; Fluency in Python (it's fine if you take help of LLMs); Familiarity with MongoDB.",
+  "company_name": "Affluense",
+  "location": "Bengaluru, Karnataka, India",
+  "experience_required": "",
+  "tech_stack": [
+    "Python",
+    "MongoDB"
+  ],
+  "contact_info": [],
+  "score": 4,
+  "tier": "low",
+  "tags": [
+    "high_learning",
+    "clear_info"
+  ]
+},
+{
+  "job_title": "Data Scientist Intern",
+  "job_description": "This would be a Full stack Data Scientist role. Very unique opportunity to contribute in core models and not just experimental models. This gives a chance to work directly with Founders having core experience in Data. Expectation from the person is that they will define the problem statement, fetch data, identify right models, build and deploy in production. Responsibilities: Analyze raw data: assessing quality, cleansing, structuring for downstream processing; Design accurate and scalable prediction algorithms; Collaborate with engineering team to bring analytical prototypes to production; Generate actionable insights for business improvements. Qualifications: Bachelor's degree or equivalent experience in a quantitative field (Statistics, Mathematics, Computer Science, Engineering, etc.); Deep understanding of basic statistics (central tendency, distributions etc.); Deep understanding of predictive modeling, machine-learning, clustering and classification techniques, and algorithms; Fluency in Python (it's fine if you take help of LLMs); Familiarity with MongoDB.",
+  "company_name": "Affluense",
+  "location": "Bengaluru, Karnataka, India",
+  "experience_required": "",
+  "tech_stack": [
+    "Python",
+    "MongoDB"
+  ],
+  "contact_info": [],
+  "score": 4,
+  "tier": "low",
+  "tags": [
+    "high_learning",
+    "clear_info"
+  ]
+},

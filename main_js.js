@@ -84,7 +84,6 @@ Respond only with valid JSON. Use this job message:
 function fallbackScore(job) {
   let score = 0;
   const tags = [];
-
   const desc = (job.job_description || "").toLowerCase();
   const title = (Array.isArray(job.job_title) ? job.job_title.join(" ") : job.job_title || "").toLowerCase();
   const experience = (job.experience_required || "").toLowerCase();

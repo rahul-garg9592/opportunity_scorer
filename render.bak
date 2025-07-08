@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: job-parser
+    env: node
+    buildCommand: |
+      apt-get update
+      apt-get install -y chromium
+      npm install
+    startCommand: node main_js.js
+    plan: free
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
